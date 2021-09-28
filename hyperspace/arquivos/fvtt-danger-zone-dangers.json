@@ -1,0 +1,447 @@
+{
+  "09y2pdseq0abx69f": {
+    "dimensions": {
+      "units": {
+        "w": 1,
+        "h": 1,
+        "d": 1
+      }
+    },
+    "icon": "systems/scum-and-villainy/styles/assets/icons/ufo.png",
+    "id": "09y2pdseq0abx69f",
+    "name": "Ataque a Nave",
+    "options": {
+      "ambientLight": {
+        "active": 0,
+        "angle": 360,
+        "bright": 0,
+        "dim": 0,
+        "lightAnimation": {
+          "speed": 5,
+          "intensity": 1,
+          "type": "torch"
+        },
+        "rotation": 0,
+        "tintColor": "",
+        "tintAlpha": 0.5
+      },
+      "audio": {
+        "file": "worlds/scum-and-villainy/sounds/Laser%20Weapon%20Shoot.mp3",
+        "delay": 0,
+        "volume": 0.7
+      },
+      "backgroundEffect": {
+        "delay": 1500,
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Blue_600x600.webm",
+        "scale": 8,
+        "repeat": 8,
+        "duration": 0
+      },
+      "effect": {
+        "label": "",
+        "icon": "",
+        "changes": [],
+        "disable": false,
+        "transfer": false,
+        "origin": "09y2pdseq0abx69f"
+      },
+      "flags": {
+        "fluidCanvas": {
+          "type": "earthquake",
+          "delay": 0,
+          "intensity": 1,
+          "iteration": 3,
+          "duration": 800
+        },
+        "monks-active-tiles": {
+          "macro": {
+            "macroid": "",
+            "args": "",
+            "after": null
+          },
+          "teleport": {
+            "add": false,
+            "twin": false,
+            "source": false,
+            "pan": false,
+            "avoid": false
+          }
+        },
+        "tokenSays": {
+          "fileType": "",
+          "compendiumName": "",
+          "fileName": "",
+          "fileTitle": ""
+        },
+        "warpgate": {
+          "actor": "",
+          "isRolltable": false,
+          "duplicates": null,
+          "delay": null
+        }
+      },
+      "foregroundEffect": {
+        "delay": 1500,
+        "file": "modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Dark_Purple_400x400.webm",
+        "scale": 3,
+        "repeat": 6,
+        "duration": 0
+      },
+      "lastingEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "loop": true
+      },
+      "macro": ""
+    }
+  },
+  "864fpxatl0djqjd5": {
+    "dimensions": {
+      "units": {
+        "w": 1,
+        "h": 1,
+        "d": 1
+      }
+    },
+    "icon": "modules/jb2a_patreon/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Blue_Sphere_Thumb.webp",
+    "id": "864fpxatl0djqjd5",
+    "name": "Escudos",
+    "options": {
+      "ambientLight": {
+        "active": 0,
+        "angle": 360,
+        "bright": 0,
+        "dim": 0,
+        "lightAnimation": {
+          "speed": 5,
+          "intensity": 5,
+          "type": ""
+        },
+        "rotation": 0,
+        "tintColor": "",
+        "tintAlpha": 0.5
+      },
+      "audio": {
+        "file": "worlds/scum-and-villainy/sounds/ENERGY%20SHIELD%20-%20Hi%20Tech%20Turn%20On.mp3",
+        "delay": 0,
+        "volume": 0.5
+      },
+      "backgroundEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 0
+      },
+      "effect": {},
+      "flags": {
+        "fluidCanvas": {
+          "type": "",
+          "delay": 400,
+          "intensity": 1,
+          "iteration": 3,
+          "duration": 800
+        },
+        "monks-active-tiles": {
+          "macro": {
+            "macroid": "",
+            "args": "",
+            "after": null
+          },
+          "teleport": {
+            "add": false,
+            "twin": false,
+            "source": false,
+            "pan": false,
+            "avoid": false
+          }
+        },
+        "tokenSays": {
+          "fileType": "",
+          "compendiumName": "",
+          "fileName": "",
+          "fileTitle": ""
+        },
+        "warpgate": {
+          "actor": "",
+          "isRolltable": false,
+          "duplicates": null,
+          "delay": null
+        }
+      },
+      "foregroundEffect": {
+        "delay": 300,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 0
+      },
+      "lastingEffect": {
+        "delay": 0,
+        "file": "modules/jb2a_patreon/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Grey_H_200x200.webm",
+        "scale": 20,
+        "loop": true
+      },
+      "macro": ""
+    }
+  },
+  "zfup0drljevyz3ig": {
+    "dimensions": {
+      "units": {
+        "w": 1,
+        "h": 1,
+        "d": 1
+      }
+    },
+    "icon": "",
+    "id": "zfup0drljevyz3ig",
+    "name": "",
+    "options": {
+      "ambientLight": {
+        "active": 0,
+        "angle": 360,
+        "bright": 0,
+        "dim": 0,
+        "lightAnimation": {
+          "speed": 5,
+          "intensity": 5,
+          "type": ""
+        },
+        "rotation": 0,
+        "tintColor": "",
+        "tintAlpha": 0.5
+      },
+      "audio": {
+        "file": "",
+        "delay": 0,
+        "volume": 0.5
+      },
+      "backgroundEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 30
+      },
+      "effect": {},
+      "flags": {},
+      "foregroundEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 0
+      },
+      "lastingEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "loop": true
+      },
+      "macro": ""
+    }
+  },
+  "aosa958gzcu6664d": {
+    "dimensions": {
+      "units": {
+        "w": 1,
+        "h": 1,
+        "d": 1
+      }
+    },
+    "icon": "",
+    "id": "aosa958gzcu6664d",
+    "name": "",
+    "options": {
+      "ambientLight": {
+        "active": 0,
+        "angle": 360,
+        "bright": 0,
+        "dim": 0,
+        "lightAnimation": {
+          "speed": 5,
+          "intensity": 5,
+          "type": ""
+        },
+        "rotation": 0,
+        "tintColor": "",
+        "tintAlpha": 0.5
+      },
+      "audio": {
+        "file": "",
+        "delay": 0,
+        "volume": 0.5
+      },
+      "backgroundEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 30
+      },
+      "effect": {},
+      "flags": {},
+      "foregroundEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 0
+      },
+      "lastingEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "loop": true
+      },
+      "macro": ""
+    }
+  },
+  "ahllhhw1t2pxjn33": {
+    "dimensions": {
+      "units": {
+        "w": 1,
+        "h": 1,
+        "d": 1
+      }
+    },
+    "icon": "",
+    "id": "ahllhhw1t2pxjn33",
+    "name": "",
+    "options": {
+      "ambientLight": {
+        "active": 0,
+        "angle": 360,
+        "bright": 0,
+        "dim": 0,
+        "lightAnimation": {
+          "speed": 5,
+          "intensity": 5,
+          "type": ""
+        },
+        "rotation": 0,
+        "tintColor": "",
+        "tintAlpha": 0.5
+      },
+      "audio": {
+        "file": "",
+        "delay": 0,
+        "volume": 0.5
+      },
+      "backgroundEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 30
+      },
+      "effect": {},
+      "flags": {},
+      "foregroundEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 0
+      },
+      "lastingEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "loop": true
+      },
+      "macro": ""
+    }
+  },
+  "xs8vcxu7wlwu78rp": {
+    "dimensions": {
+      "units": {
+        "w": 1,
+        "h": 1,
+        "d": 1
+      }
+    },
+    "icon": "systems/scum-and-villainy/styles/assets/icons/afterburn.png",
+    "id": "xs8vcxu7wlwu78rp",
+    "name": "Evadir",
+    "options": {
+      "ambientLight": {
+        "active": 0,
+        "angle": 360,
+        "bright": 0,
+        "dim": 0,
+        "lightAnimation": {
+          "speed": 5,
+          "intensity": 4,
+          "type": ""
+        },
+        "rotation": 0,
+        "tintColor": "",
+        "tintAlpha": 0.55
+      },
+      "audio": {
+        "file": "worlds/scum-and-villainy/sounds/Light%20Speed%20Engine%20Charge.mp3",
+        "delay": 0,
+        "volume": 0.85
+      },
+      "backgroundEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 30
+      },
+      "effect": {},
+      "flags": {
+        "fluidCanvas": {
+          "type": "spin",
+          "delay": null,
+          "intensity": 1,
+          "iteration": 2,
+          "duration": 900
+        },
+        "monks-active-tiles": {
+          "macro": {
+            "macroid": "",
+            "args": "",
+            "after": null
+          },
+          "teleport": {
+            "add": false,
+            "twin": false,
+            "source": false,
+            "pan": false,
+            "avoid": false
+          }
+        },
+        "tokenSays": {
+          "fileType": "",
+          "compendiumName": "",
+          "fileName": "",
+          "fileTitle": ""
+        },
+        "warpgate": {
+          "actor": "",
+          "isRolltable": false,
+          "duplicates": null,
+          "delay": null
+        }
+      },
+      "foregroundEffect": {
+        "delay": 200,
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm",
+        "scale": 10,
+        "repeat": 1,
+        "duration": 1400
+      },
+      "lastingEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "loop": true
+      },
+      "macro": ""
+    }
+  }
+}

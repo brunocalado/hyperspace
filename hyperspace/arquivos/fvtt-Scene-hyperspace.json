@@ -1,0 +1,315 @@
+{
+  "name": "Hyperspace",
+  "active": false,
+  "navigation": false,
+  "navOrder": 0,
+  "navName": "",
+  "img": "modules/sequencer/samples/Hyperspace/backgrounds/civilized-world-02.webm",
+  "foreground": "",
+  "thumb": "worlds/teste-scum/scenes/thumbs/RMorgXbxgTa3vSCe.png",
+  "width": 1920,
+  "height": 1080,
+  "padding": 0,
+  "initial": {
+    "x": 1116,
+    "y": 527,
+    "scale": 0.95
+  },
+  "backgroundColor": "#000000",
+  "gridType": 1,
+  "grid": 100,
+  "shiftX": 0,
+  "shiftY": 0,
+  "gridColor": "#ffffff",
+  "gridAlpha": 0,
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "tokenVision": false,
+  "fogExploration": false,
+  "fogReset": null,
+  "globalLight": false,
+  "globalLightThreshold": null,
+  "darkness": 0,
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [
+    {
+      "_id": "1zTec5I8PMcyPY3s",
+      "img": "modules/hyperspace/hyperspace/Scifi_Cockpit_01.png",
+      "width": 1928,
+      "height": 1084,
+      "x": -4,
+      "y": -2,
+      "z": 10,
+      "rotation": 0,
+      "alpha": 1,
+      "tint": null,
+      "hidden": false,
+      "locked": false,
+      "overhead": true,
+      "occlusion": {
+        "mode": 0,
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 1
+      },
+      "flags": {
+        "tagger": {
+          "tags": ""
+        }
+      }
+    },
+    {
+      "_id": "uNtnxq0caQKx9xBO",
+      "img": "modules/hyperspace/hyperspace/backgrounds/yellow-star_H.264.mp4",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "z": -9,
+      "rotation": 0,
+      "alpha": 1,
+      "tint": null,
+      "hidden": false,
+      "locked": false,
+      "overhead": false,
+      "occlusion": {
+        "mode": 1,
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "tagger": {
+          "tags": [
+            "endgoal"
+          ]
+        }
+      }
+    },
+    {
+      "_id": "ZWYvWsVoKG3ZvXna",
+      "img": "modules/hyperspace/hyperspace/loop-hyperspace.mp4",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "z": 100,
+      "rotation": 0,
+      "alpha": 0,
+      "tint": null,
+      "hidden": false,
+      "locked": false,
+      "overhead": false,
+      "occlusion": {
+        "mode": 1,
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "tagger": {
+          "tags": ""
+        }
+      }
+    }
+  ],
+  "walls": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "weather": "",
+  "sort": 0,
+  "flags": {
+    "perfect-vision": {
+      "sightLimit": null,
+      "daylightColor": "",
+      "darknessColor": "",
+      "forceSaturation": false,
+      "saturation": 0
+    },
+    "core": {
+      "sourceId": "Scene.tMNRNMrRitwDQF7i"
+    },
+    "danger-zone": {
+      "sceneZone": {
+        "c8altaz62d7d0olh": {
+          "id": "c8altaz62d7d0olh",
+          "actor": "",
+          "enabled": true,
+          "flavor": "Sob ataque!!!",
+          "lightReplace": "N",
+          "likelihood": 99,
+          "options": {
+            "allInArea": false,
+            "bleed": true,
+            "placeTemplate": false,
+            "runUntilTokenFound": false,
+            "deleteAfter": {
+              "turns": 0,
+              "rounds": 0,
+              "seconds": 0
+            }
+          },
+          "random": false,
+          "replace": "N",
+          "scene": {
+            "zoneId": "c8altaz62d7d0olh",
+            "sceneId": "Xd8ht3abzVmrG0AI",
+            "end": {
+              "x": 1800,
+              "y": 750,
+              "z": 1
+            },
+            "start": {
+              "x": 50,
+              "y": 50,
+              "z": 0
+            }
+          },
+          "title": "Ataque a Nave",
+          "tokenDisposition": "",
+          "trigger": "manual",
+          "type": "09y2pdseq0abx69f",
+          "weight": 1
+        },
+        "6rvieu7ff5wdw9pg": {
+          "id": "6rvieu7ff5wdw9pg",
+          "actor": "",
+          "enabled": true,
+          "flavor": "Escudos Online",
+          "lightReplace": "N",
+          "likelihood": 99,
+          "options": {
+            "allInArea": false,
+            "bleed": true,
+            "placeTemplate": false,
+            "runUntilTokenFound": false,
+            "deleteAfter": {
+              "turns": 0,
+              "rounds": 0,
+              "seconds": 0
+            }
+          },
+          "random": false,
+          "replace": "N",
+          "scene": {
+            "zoneId": "6rvieu7ff5wdw9pg",
+            "sceneId": "Xd8ht3abzVmrG0AI",
+            "end": {
+              "x": 1000,
+              "y": 500,
+              "z": 0
+            },
+            "start": {
+              "x": 900,
+              "y": 400,
+              "z": 0
+            }
+          },
+          "title": "Escudos",
+          "tokenDisposition": "",
+          "trigger": "manual",
+          "type": "864fpxatl0djqjd5",
+          "weight": 1
+        },
+        "4ivm77l582tzbktg": {
+          "id": "4ivm77l582tzbktg",
+          "actor": "",
+          "enabled": true,
+          "flavor": "Manobras Evasivas",
+          "lightReplace": "N",
+          "likelihood": 97,
+          "options": {
+            "allInArea": false,
+            "bleed": true,
+            "placeTemplate": false,
+            "runUntilTokenFound": false,
+            "deleteAfter": {
+              "turns": 0,
+              "rounds": 0,
+              "seconds": 0
+            }
+          },
+          "random": false,
+          "replace": "N",
+          "scene": {
+            "zoneId": "4ivm77l582tzbktg",
+            "sceneId": "Xd8ht3abzVmrG0AI",
+            "end": {
+              "x": 1000,
+              "y": 500,
+              "z": 0
+            },
+            "start": {
+              "x": 900,
+              "y": 400,
+              "z": 0
+            }
+          },
+          "title": "Evadir",
+          "tokenDisposition": "",
+          "trigger": "manual",
+          "type": "xs8vcxu7wlwu78rp",
+          "weight": 1
+        }
+      }
+    },
+    "LockView": {
+      "editViewbox": false,
+      "collapseSidebar": false,
+      "hideUIelements": {
+        "logo": true,
+        "navigation": true,
+        "controls": true,
+        "players": true,
+        "hotbar": true,
+        "sidebar": false
+      },
+      "autoScale": "3",
+      "lockPan": true,
+      "lockPanInit": true,
+      "lockZoom": true,
+      "lockZoomInit": true,
+      "blackenSidebar": false,
+      "hideUI": false,
+      "excludeSidebar": false,
+      "boundingBox": false,
+      "boundingBoxInit": false,
+      "forceInit": false
+    },
+    "kandashis-fluid-canvas": {
+      "black": {
+        "active": false,
+        "value": "brightness(0)",
+        "users": [
+          "tnmjg5BEY2dKOg7l",
+          "9l1kZWuqeqTGU1fM",
+          "cUg2XSpsnpyjmrly",
+          "Co1n4iUpJRqQns52",
+          "EkZYgJYR9QbTDk0Y",
+          "IXliQ1pkpJQtoyWy"
+        ]
+      }
+    },
+    "exportSource": {
+      "world": "scum-and-villainy",
+      "system": "scum-and-villainy",
+      "coreVersion": "0.8.9",
+      "systemVersion": "1.12.1"
+    }
+  }
+}
